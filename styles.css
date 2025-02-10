@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #16181C;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 15px; /* Añadido para separar el título de los botones */
+}
+
+button {
+    margin: 10px; /* Aumentado el margen para separar los botones */
+    padding: 10px 20px; /* Aumentado el padding para mejor aspecto */
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border-radius: 4px; /* Bordes más redondeados */
+    transition: all 0.3s ease-in-out; /* Transición suave para todos los cambios */
+    color: #cbd4dc; /* Color del texto */
+    border: 1px solid #30394c; /* Borde del botón */
+    cursor: pointer;
+    display: inline-block;
+    width: auto; /* Ancho automático en lugar de 100% */
+    line-height: normal;
+}
+
+button:hover {
+    background-color: #4a5e8d; /* Cambio de color de fondo al pasar el cursor */
+    border-color: #839df9; /* Cambio de color del borde al pasar el cursor */
+    color: #fff; /* Cambio de color del texto al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+}
+
+/* Opcional: Estilo para cuando el botón está activo (clic) */
+button:active {
+    background-color: #3b4760; /* Color más oscuro al hacer clic */
+    transform: scale(0.98); /* Efecto de "presionado" */
+}
