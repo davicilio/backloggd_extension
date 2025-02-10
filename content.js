@@ -34,6 +34,6 @@ function formatNumber(num) {
   chrome.storage.sync.get("notaFormat", (data) => {
     const format = data.notaFormat || "none"; // Por defecto, no se ejecuta ninguna acción
     if ( format === "show10") {
-      updateNotaMedia(format); // Aplicar el formato guardado
+      updateNotaMedia(format); // Aplicar el formato guardado.
     }
   });
