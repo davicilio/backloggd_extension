@@ -1,15 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "Backloggd Nota Media",
+    "name": "Backloggd sobre 10",
     "version": "1.0",
     "description": "Permite alternar entre mostrar la nota media sobre 5 o sobre 10 en Backloggd.",
     "permissions": ["activeTab", "storage"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
       }
     },
     "content_scripts": [
